@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Área Motos - Marcas e Información</title>
-    <!-- Estilos de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans">
 
-    <!-- HEADER / NAVEGACIÓN -->
     <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-            <!-- LOGO AREA MOTOS -->
             <a href="#" class="flex items-center">
                 <img src="AreaMotosPNG.png" alt="Área Motos Logo" class="h-10 w-auto object-contain">
             </a>
@@ -23,44 +20,36 @@
         </div>
     </header>
 
-    <!-- HERO SECTION / PORTADA -->
     <section class="text-center py-12 px-4 bg-gradient-to-b from-gray-800 to-gray-900 border-b border-gray-800">
         <div class="max-w-4xl mx-auto">
             
-            <!-- FOTO DE PORTADA DEL LOCAL -->
             <div class="mb-8 rounded-2xl overflow-hidden shadow-2xl border border-gray-700 max-h-[400px]">
                 <img src="Portada.jpg" alt="Local Área Motos" class="w-full h-full object-cover">
             </div>
 
-            <!-- LOGO CENTRAL -->
             <img src="AreaMotosPNG.png" alt="Área Motos Logo" class="h-48 mx-auto mb-6 object-contain">
             <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Encontrá tu próxima moto</h2>
             <p class="text-gray-400 text-lg max-w-xl mx-auto mb-8">Conocé las marcas oficiales que trabajamos y consultanos al instante.</p>
             
-            <!-- BOTÓN PRINCIPAL AL CATÁLOGO DIRECTO DE WHATSAPP -->
             <a href="https://wa.me/c/5492617234467" target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-lg transition inline-flex items-center gap-2 text-lg shadow-lg hover:shadow-green-900/40">
                 📲 Ver catálogo disponible en WhatsApp
             </a>
         </div>
     </section>
 
-    <!-- MARCAS QUE TRABAJAMOS -->
     <section id="marcas" class="max-w-6xl mx-auto px-4 py-12">
         <h3 class="text-2xl font-bold text-red-500 mb-8 border-b border-gray-700 pb-2 text-center md:text-left">🏷️ Marcas Oficiales</h3>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            <!-- Marca 1: Gilera -->
             <div class="bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-red-500 transition flex items-center justify-center h-40">
                 <img src="Logo Gilera nb.png" alt="Logo Gilera" class="max-h-24 max-w-full object-contain">
             </div>
 
-            <!-- Marca 2: Mondial -->
             <div class="bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-red-500 transition flex items-center justify-center h-40">
                 <img src="Logo Mondial nb.png" alt="Logo Mondial" class="max-h-24 max-w-full object-contain">
             </div>
 
-            <!-- Marca 3: Kymco -->
             <div class="bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-red-500 transition flex items-center justify-center h-40">
                 <img src="LogoKymco nb.png" alt="Logo Kymco" class="max-h-24 max-w-full object-contain">
             </div>
@@ -68,11 +57,9 @@
         </div>
     </section>
 
-    <!-- UBICACIÓN, HORARIOS, CONTACTO E INSTAGRAM -->
     <section id="contacto" class="bg-gray-800 py-12 border-t border-gray-700">
         <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             
-            <!-- Ubicación -->
             <div class="flex flex-col items-center">
                 <h4 class="text-lg font-bold text-red-500 mb-3 flex items-center justify-center gap-2">
                     📍 Ubicación
@@ -81,16 +68,16 @@
                 <p class="text-gray-400 text-sm mt-1">M5504BPR Godoy Cruz, Mendoza</p>
             </div>
 
-            <!-- Horarios -->
             <div class="flex flex-col items-center">
                 <h4 class="text-lg font-bold text-red-500 mb-3 flex items-center justify-center gap-2">
                     ⏰ Horarios de Atención
                 </h4>
                 <p class="text-gray-300">Lunes a Viernes</p>
                 <p class="text-gray-400 text-sm mt-1">09:30 a 13:30 hs | 15:30 a 19:00 hs</p>
+                <p class="text-gray-300 mt-2">Sábados</p>
+                <p class="text-gray-400 text-sm mt-1">10:00 a 13:30 hs</p>
             </div>
 
-            <!-- Contacto Directo -->
             <div class="flex flex-col items-center">
                 <h4 class="text-lg font-bold text-red-500 mb-3 flex items-center justify-center gap-2">
                     📞 Contacto Directo
@@ -101,7 +88,6 @@
                 </a>
             </div>
 
-            <!-- Instagram -->
             <div class="flex flex-col items-center">
                 <h4 class="text-lg font-bold text-red-500 mb-3 flex items-center justify-center gap-2">
                     📸 Instagram
@@ -115,7 +101,6 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="text-center py-6 border-t border-gray-800 text-gray-500 text-sm">
         &copy; Área Motos. Todos los derechos reservados.
     </footer>
